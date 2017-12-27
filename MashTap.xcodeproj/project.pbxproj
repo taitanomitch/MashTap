@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A27339C91FF422C90035EC80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27339C81FF422C90035EC80 /* AppDelegate.swift */; };
+		A27339CB1FF422C90035EC80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27339CA1FF422C90035EC80 /* ViewController.swift */; };
+		A27339CE1FF422C90035EC80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27339CC1FF422C90035EC80 /* Main.storyboard */; };
+		A27339D01FF422C90035EC80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A27339CF1FF422C90035EC80 /* Assets.xcassets */; };
+		A27339D31FF422C90035EC80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27339D11FF422C90035EC80 /* LaunchScreen.storyboard */; };
+		A27339DE1FF422CA0035EC80 /* MashTapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27339DD1FF422CA0035EC80 /* MashTapTests.swift */; };
+		A27339E91FF422CA0035EC80 /* MashTapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27339E81FF422CA0035EC80 /* MashTapUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A27339DA1FF422CA0035EC80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A27339BD1FF422C90035EC80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A27339C41FF422C90035EC80;
+			remoteInfo = MashTap;
+		};
+		A27339E51FF422CA0035EC80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A27339BD1FF422C90035EC80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A27339C41FF422C90035EC80;
+			remoteInfo = MashTap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A27339C51FF422C90035EC80 /* MashTap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MashTap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A27339C81FF422C90035EC80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A27339CA1FF422C90035EC80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A27339CD1FF422C90035EC80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A27339CF1FF422C90035EC80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A27339D21FF422C90035EC80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A27339D41FF422C90035EC80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A27339D91FF422CA0035EC80 /* MashTapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MashTapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A27339DD1FF422CA0035EC80 /* MashTapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MashTapTests.swift; sourceTree = "<group>"; };
+		A27339DF1FF422CA0035EC80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A27339E41FF422CA0035EC80 /* MashTapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MashTapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A27339E81FF422CA0035EC80 /* MashTapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MashTapUITests.swift; sourceTree = "<group>"; };
+		A27339EA1FF422CA0035EC80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A27339C21FF422C90035EC80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27339D61FF422CA0035EC80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27339E11FF422CA0035EC80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A27339BC1FF422C90035EC80 = {
+			isa = PBXGroup;
+			children = (
+				A27339C71FF422C90035EC80 /* MashTap */,
+				A27339DC1FF422CA0035EC80 /* MashTapTests */,
+				A27339E71FF422CA0035EC80 /* MashTapUITests */,
+				A27339C61FF422C90035EC80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A27339C61FF422C90035EC80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A27339C51FF422C90035EC80 /* MashTap.app */,
+				A27339D91FF422CA0035EC80 /* MashTapTests.xctest */,
+				A27339E41FF422CA0035EC80 /* MashTapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A27339C71FF422C90035EC80 /* MashTap */ = {
+			isa = PBXGroup;
+			children = (
+				A27339C81FF422C90035EC80 /* AppDelegate.swift */,
+				A27339CA1FF422C90035EC80 /* ViewController.swift */,
+				A27339CC1FF422C90035EC80 /* Main.storyboard */,
+				A27339CF1FF422C90035EC80 /* Assets.xcassets */,
+				A27339D11FF422C90035EC80 /* LaunchScreen.storyboard */,
+				A27339D41FF422C90035EC80 /* Info.plist */,
+			);
+			path = MashTap;
+			sourceTree = "<group>";
+		};
+		A27339DC1FF422CA0035EC80 /* MashTapTests */ = {
+			isa = PBXGroup;
+			children = (
+				A27339DD1FF422CA0035EC80 /* MashTapTests.swift */,
+				A27339DF1FF422CA0035EC80 /* Info.plist */,
+			);
+			path = MashTapTests;
+			sourceTree = "<group>";
+		};
+		A27339E71FF422CA0035EC80 /* MashTapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A27339E81FF422CA0035EC80 /* MashTapUITests.swift */,
+				A27339EA1FF422CA0035EC80 /* Info.plist */,
+			);
+			path = MashTapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A27339C41FF422C90035EC80 /* MashTap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A27339ED1FF422CA0035EC80 /* Build configuration list for PBXNativeTarget "MashTap" */;
+			buildPhases = (
+				A27339C11FF422C90035EC80 /* Sources */,
+				A27339C21FF422C90035EC80 /* Frameworks */,
+				A27339C31FF422C90035EC80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MashTap;
+			productName = MashTap;
+			productReference = A27339C51FF422C90035EC80 /* MashTap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A27339D81FF422CA0035EC80 /* MashTapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A27339F01FF422CA0035EC80 /* Build configuration list for PBXNativeTarget "MashTapTests" */;
+			buildPhases = (
+				A27339D51FF422CA0035EC80 /* Sources */,
+				A27339D61FF422CA0035EC80 /* Frameworks */,
+				A27339D71FF422CA0035EC80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A27339DB1FF422CA0035EC80 /* PBXTargetDependency */,
+			);
+			name = MashTapTests;
+			productName = MashTapTests;
+			productReference = A27339D91FF422CA0035EC80 /* MashTapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A27339E31FF422CA0035EC80 /* MashTapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A27339F31FF422CA0035EC80 /* Build configuration list for PBXNativeTarget "MashTapUITests" */;
+			buildPhases = (
+				A27339E01FF422CA0035EC80 /* Sources */,
+				A27339E11FF422CA0035EC80 /* Frameworks */,
+				A27339E21FF422CA0035EC80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A27339E61FF422CA0035EC80 /* PBXTargetDependency */,
+			);
+			name = MashTapUITests;
+			productName = MashTapUITests;
+			productReference = A27339E41FF422CA0035EC80 /* MashTapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A27339BD1FF422C90035EC80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Mitchell Taitano";
+				TargetAttributes = {
+					A27339C41FF422C90035EC80 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					A27339D81FF422CA0035EC80 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A27339C41FF422C90035EC80;
+					};
+					A27339E31FF422CA0035EC80 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A27339C41FF422C90035EC80;
+					};
+				};
+			};
+			buildConfigurationList = A27339C01FF422C90035EC80 /* Build configuration list for PBXProject "MashTap" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A27339BC1FF422C90035EC80;
+			productRefGroup = A27339C61FF422C90035EC80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A27339C41FF422C90035EC80 /* MashTap */,
+				A27339D81FF422CA0035EC80 /* MashTapTests */,
+				A27339E31FF422CA0035EC80 /* MashTapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A27339C31FF422C90035EC80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27339D31FF422C90035EC80 /* LaunchScreen.storyboard in Resources */,
+				A27339D01FF422C90035EC80 /* Assets.xcassets in Resources */,
+				A27339CE1FF422C90035EC80 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27339D71FF422CA0035EC80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27339E21FF422CA0035EC80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A27339C11FF422C90035EC80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27339CB1FF422C90035EC80 /* ViewController.swift in Sources */,
+				A27339C91FF422C90035EC80 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27339D51FF422CA0035EC80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27339DE1FF422CA0035EC80 /* MashTapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27339E01FF422CA0035EC80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27339E91FF422CA0035EC80 /* MashTapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A27339DB1FF422CA0035EC80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A27339C41FF422C90035EC80 /* MashTap */;
+			targetProxy = A27339DA1FF422CA0035EC80 /* PBXContainerItemProxy */;
+		};
+		A27339E61FF422CA0035EC80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A27339C41FF422C90035EC80 /* MashTap */;
+			targetProxy = A27339E51FF422CA0035EC80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A27339CC1FF422C90035EC80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A27339CD1FF422C90035EC80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A27339D11FF422C90035EC80 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A27339D21FF422C90035EC80 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A27339EB1FF422CA0035EC80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A27339EC1FF422CA0035EC80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A27339EE1FF422CA0035EC80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MashTap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mitchelltaitano.MashTap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A27339EF1FF422CA0035EC80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MashTap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mitchelltaitano.MashTap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A27339F11FF422CA0035EC80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MashTapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mitchelltaitano.MashTapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MashTap.app/MashTap";
+			};
+			name = Debug;
+		};
+		A27339F21FF422CA0035EC80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MashTapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mitchelltaitano.MashTapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MashTap.app/MashTap";
+			};
+			name = Release;
+		};
+		A27339F41FF422CA0035EC80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MashTapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mitchelltaitano.MashTapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MashTap;
+			};
+			name = Debug;
+		};
+		A27339F51FF422CA0035EC80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MashTapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mitchelltaitano.MashTapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MashTap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A27339C01FF422C90035EC80 /* Build configuration list for PBXProject "MashTap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A27339EB1FF422CA0035EC80 /* Debug */,
+				A27339EC1FF422CA0035EC80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A27339ED1FF422CA0035EC80 /* Build configuration list for PBXNativeTarget "MashTap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A27339EE1FF422CA0035EC80 /* Debug */,
+				A27339EF1FF422CA0035EC80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A27339F01FF422CA0035EC80 /* Build configuration list for PBXNativeTarget "MashTapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A27339F11FF422CA0035EC80 /* Debug */,
+				A27339F21FF422CA0035EC80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A27339F31FF422CA0035EC80 /* Build configuration list for PBXNativeTarget "MashTapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A27339F41FF422CA0035EC80 /* Debug */,
+				A27339F51FF422CA0035EC80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A27339BD1FF422C90035EC80 /* Project object */;
+}
