@@ -204,21 +204,23 @@ class MasterViewController: UIViewController, UICollectionViewDataSource, UIColl
     
     // MARK: - Timer Functions
     func runTimer() {
-        timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true, block: { (myTimer) in
-            let dateNow = NSDate()
-            let secondsDuration = dateNow.timeIntervalSince(self.startTime as Date)
-            let (hours, minutes, seconds) = self.convertSecondsToHoursMinutesSeconds(seconds: secondsDuration)
-            let hoursString = String(format: "%02d", hours)
-            let minutesString = String(format: "%02d", minutes)
-            let secondsString = String(format: "%02d", seconds)
-            
-            
-            let tpm: Int = Int((self.score * 60) / Float(secondsDuration))
-            
-            DispatchQueue.main.async {
-                self.timeLabel.text = "\(hoursString):\(minutesString):\(secondsString)"
-                self.averageScoreLabel.text = "\(tpm) tpm"
-            }
-        })
+        if(!hasStarted) {
+            timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true, block: { (myTimer) in
+                let dateNow = NSDate()
+                let secondsDuration = dateNow.timeIntervalSince(self.startTime as Date)
+                let (hours, minutes, seconds) = self.convertSecondsToHoursMinutesSeconds(seconds: secondsDuration)
+                let hoursString = String(format: "%02d", hours)
+                let minutesString = String(format: "%02d", minutes)
+                let secondsString = String(format: "%02d", seconds)
+                
+                
+                let tpm: Int = Int((self.score * 60) / Float(secondsDuration))
+                
+                DispatchQueue.main.async {
+                    self.timeLabel.text = "\(hoursString):\(minutesString):\(secondsString)"
+                    self.averageScoreLabel.text = "\(tpm) tpm"
+                }
+            })
+        }
     }
 }
