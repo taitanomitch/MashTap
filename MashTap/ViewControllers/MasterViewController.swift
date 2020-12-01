@@ -97,9 +97,9 @@ class MasterViewController: UIViewController, UICollectionViewDataSource, UIColl
             
             updateScore()
             if(!hasStarted) {
-                hasStarted = true
                 startTime = NSDate()
                 runTimer()
+                hasStarted = true
             }
         }
         else {
